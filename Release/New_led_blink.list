@@ -136,13 +136,13 @@ Disassembly of section .text:
  80001fa:	4620      	mov	r0, r4
  80001fc:	4611      	mov	r1, r2
  80001fe:	f000 f9e7 	bl	80005d0 <HAL_GPIO_WritePin>
- 8000202:	2064      	movs	r0, #100	@ 0x64
+ 8000202:	20c8      	movs	r0, #200	@ 0xc8
  8000204:	f000 f8aa 	bl	800035c <HAL_Delay>
  8000208:	4620      	mov	r0, r4
  800020a:	2200      	movs	r2, #0
  800020c:	2101      	movs	r1, #1
  800020e:	f000 f9df 	bl	80005d0 <HAL_GPIO_WritePin>
- 8000212:	2064      	movs	r0, #100	@ 0x64
+ 8000212:	20c8      	movs	r0, #200	@ 0xc8
  8000214:	f000 f8a2 	bl	800035c <HAL_Delay>
  8000218:	e7ee      	b.n	80001f8 <main+0x5c>
  800021a:	bf00      	nop
